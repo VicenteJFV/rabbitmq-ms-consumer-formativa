@@ -1,0 +1,18 @@
+spring:
+  application:
+    # Nombre del microservicio
+    name: rabbitmq-ms-consumidor
+
+  rabbitmq:
+    # Dirección donde se encuentra RabbitMQ
+    host: localhost
+
+    # Puerto de comunicación AMQP
+    port: 5672
+
+    # Credenciales de acceso
+    username: guest
+    password: guest
+
+    # Virtual Host utilizado
+    virtual-host: /
